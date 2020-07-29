@@ -6,8 +6,6 @@
 #define HEtimeout 5000000   //
 #define HEpin 2            //HE sensor pin (or a switch to ground)
 
-
-
 float v = 0;            
 float v_max;
 float distance = 0;
@@ -44,7 +42,6 @@ if(v == 0){
   display.setTextColor(BLACK);
   display.setCursor(0,0);
   
-  display.println("Jesse Weikamp");
   //display.setCursor(24,8);
   display.println("v=");
   display.setCursor(16,8);
@@ -92,8 +89,7 @@ if(v != 0){
      display.print(" km");
 // dit moet als laatste
      display.display();
-  
-
+ 
   } 
    delay(1000);
   
